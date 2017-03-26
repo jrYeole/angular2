@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules/
+/typings/
+
+# Compiled files
+/app/src/**/*.js
+/app/styles/**/*.css
+!/app/styles/vendor/*.css
+
+# IDE Configurations
+.idea
+
+.DS_Store
+.tmp
+.git
+node_modules
+.settings
+*.log
+dist/
