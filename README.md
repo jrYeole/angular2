@@ -3,10 +3,6 @@ Angular 2 Seed
 
 ## Angular 2 TypeScript starter project
 
-### There is a branch which uses [Pug](https://pugjs.org/) (former Jade) templates. To use these templates, just switch to the [pug branch](https://github.com/matthias-schuetz/angular2-seed/tree/pug).
-
-#### The new version 3.0.0 comes with major improvements and changes. Lazy loading has been removed and the production bundle consists of one "app.min.js" using Ahead-of-Time (AoT) compilation. Typings have been replaced with @types. TypeScript 2 is now being used togehter with version 3 of *gulp-typescript*. And E2E tests have been replaced with Karma unit tests and the Angular testing utilities.
-
 This is an example app based on Angular 2. It relies on TypeScript, SystemJS, Gulp and Sass. The project comes with various features you may need to build a typical single page application (SPA). Here are the most important aspects:
 
  - a routing concept (separate route configuration file)
@@ -22,8 +18,6 @@ This is an example app based on Angular 2. It relies on TypeScript, SystemJS, Gu
  - uses core-js, Reflect, Rx.js and Zone.js
 
 The project was developed with an IDE in mind so the Gulp configuration works well with or without an editor that has integrated TypeScript/Sass compilation (like WebStorm or Visual Studio). Gulp is mandatory for copying Angular 2 and polyfills so you don't need to link to modules from *node_modules* inside your web app. Gulp can be used for compiling TypeScript/Sass and runnig a local web server with file watchers. There are also Gulp tasks for deploying a production environment: all JavaScript code gets bundled and minified into one final "app.min.js" using Ahead-of-Time (AoT) compilation and tree shaking (Rollup). CSS code will also be concatenated into a single file. The *index.html* contains a minimal pre-processing condition for production.
-
-![Angular 2 Seed](http://matthias-schuetz.github.io/angular2-seed/angular2-seed.png?1 "Angular 2 Seed")
 
 ## Demo
 
