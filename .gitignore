@@ -29,6 +29,7 @@ build/Release
 ehthumbs.db
 Icon?
 Thumbs.db
+.history 
 
 # Node Files #
 /node_modules/
