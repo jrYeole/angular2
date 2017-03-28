@@ -29,7 +29,7 @@ const ProvidePlugin = require('webpack/lib/ProvidePlugin');
 const HMR = helpers.hasProcessFlag('hot');
 const AOT = helpers.hasNpmFlag('aot');
 const METADATA = {
-    title: 'Angular2 Webpack Starter by @gdi2290 from @AngularClass',
+    title: 'Angular2 Webpack Starter',
     baseUrl: '/',
     isDevServer: helpers.isWebpackDevServer()
 };
