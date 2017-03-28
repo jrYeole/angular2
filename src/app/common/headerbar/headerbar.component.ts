@@ -6,8 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'headerbar',
-  styles: [`
-  `],
+  styles: [`./headerbar.component.scss`],
   templateUrl: './headerbar.component.html'
 })
 export class HeaderbarComponent implements OnInit {
