@@ -29,6 +29,8 @@ import { AboutComponent } from './about';
 import { HeaderbarComponent } from './common/headerbar';
 import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
+import { FooterComponent } from './common/footer';
+import { footerTopComponent } from './common/footerTop';
 
 import '../styles/template.scss';
 
@@ -55,7 +57,9 @@ type StoreType = {
     HomeComponent,
     HeaderbarComponent,
     NoContentComponent,
-    XLargeDirective
+    XLargeDirective,
+    FooterComponent,
+    footerTopComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,
