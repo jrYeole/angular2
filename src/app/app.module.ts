@@ -31,6 +31,7 @@ import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 import { FooterComponent } from './common/footer';
 import { footerTopComponent } from './common/footerTop';
+import { StatsComponent } from './components/stats';
 
 import '../styles/template.scss';
 
@@ -59,7 +60,8 @@ type StoreType = {
     NoContentComponent,
     XLargeDirective,
     FooterComponent,
-    footerTopComponent
+    footerTopComponent,
+    StatsComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,
