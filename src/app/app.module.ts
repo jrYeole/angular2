@@ -32,6 +32,7 @@ import { XLargeDirective } from './home/x-large';
 import { FooterComponent } from './common/footer';
 import { footerTopComponent } from './common/footerTop';
 import { StatsComponent } from './components/stats';
+import { PartnersComponent } from './components/partners';
 
 import '../styles/template.scss';
 
@@ -61,7 +62,8 @@ type StoreType = {
     XLargeDirective,
     FooterComponent,
     footerTopComponent,
-    StatsComponent
+    StatsComponent,
+    PartnersComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,
