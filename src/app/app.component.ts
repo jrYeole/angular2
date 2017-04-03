@@ -7,6 +7,7 @@ import {
   ViewEncapsulation
 } from '@angular/core';
 import { AppState } from './app.service';
+// import '../assets/plugins/font-awesome-4.6.1/css/font-awesome.css';
 
 /*
  * App Component
