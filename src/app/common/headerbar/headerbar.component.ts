@@ -12,9 +12,12 @@ import { ActivatedRoute } from '@angular/router';
 export class HeaderbarComponent implements OnInit {
 
   public localState: any;
+  public setImage: any;
   constructor(
     public route: ActivatedRoute
-  ) {}
+  ) {
+    this.setImage = true;
+  }
 
   public ngOnInit() {
     this.route

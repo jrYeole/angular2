@@ -13,8 +13,10 @@
       </a>
 </nav>-->
 
-<!--<header style="background:url('assets/img/banner.png') center center; background-size:cover;">-->
-<header>
+<header [style.background]="setImage==true?'url(assets/img/banner-img1.jpg)':''">
+<!--<header>-->
+    <!--1    {{this.setImage}}-->
+    <!--2    {{setImage}}-->
     <div class="container">
         <div class="row">
             <div class="col-md-4">
