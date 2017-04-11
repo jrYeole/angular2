@@ -22,18 +22,23 @@ header {
     // background-repeat: no-repeat;
     // background-attachment: fixed;
     // background-position: center; 
-    height: 100vh;
+    // height: 140px;
     padding-top: 40px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     .logo {
         width: 200px;
     }
+}
     .banner-text {
-        position: absolute;
+        position: relative;
         margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 40%;
+        // left: 0;
+        // right: 0;
+        transform: translateY(-50%);
+        top: 50%;
         color: #fff;
         h3 {
             font-size: 28px;
@@ -47,7 +52,6 @@ header {
             }
         }
     }
-}
 
 .innerHeader {
     height: 250px;
