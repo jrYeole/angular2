@@ -16,12 +16,12 @@
 module.exports = {
     link: [
         /** <link> tags for favicons **/
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/icon/favicon-32x32.png' },
-        { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/assets/icon/favicon-96x96.png' },
-        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/icon/favicon-16x16.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/assets/icon/p.png' },
+        { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/assets/icon/p.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/assets/icon/p.png' },
 
         /** <link> tags for a Web App Manifest **/
-        { rel: 'manifest', href: '/assets/manifest.json' },
+        // { rel: 'manifest', href: '/assets/manifest.json' },
         { rel: 'stylesheet', href: 'assets/plugins/font-awesome-4.6.1/css/font-awesome.css' }
     ],
     meta: [
