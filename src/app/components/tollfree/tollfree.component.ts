@@ -5,19 +5,16 @@ import {
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'headerbar',
-  styles: [`./headerbar.component.scss`],
-  templateUrl: './headerbar.component.html'
+  selector: 'tollfree',
+  styles: [`./tollfree.component.scss`],
+  templateUrl: './tollfree.component.html'
 })
-export class HeaderbarComponent implements OnInit {
+export class tollfreeComponent implements OnInit {
 
   public localState: any;
-  public setImage: any;
   constructor(
     public route: ActivatedRoute
-  ) {
-    this.setImage = true;
-  }
+  ) {}
 
   public ngOnInit() {
     this.route
@@ -26,8 +23,8 @@ export class HeaderbarComponent implements OnInit {
         // your resolved data from route
         this.localState = data.yourData;
       });
-// console.log('current route name', this._router.currentInstruction.component.routeName);
-    console.log('hello `Headerbar` component');
+
+    console.log('hello `tollfree` component');
     // static data that is bundled
     // var mockData = require('assets/mock-data/mock-data.json');
     // console.log('mockData', mockData);

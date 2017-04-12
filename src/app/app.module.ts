@@ -34,6 +34,7 @@ import { footerTopComponent } from './common/footerTop';
 import { StatsComponent } from './components/stats';
 import { PartnersComponent } from './components/partners';
 import { featuresComponent } from './components/features';
+import { tollfreeComponent } from './components/tollfree';
 
 import '../styles/template.scss';
 
@@ -65,7 +66,8 @@ type StoreType = {
     footerTopComponent,
     StatsComponent,
     PartnersComponent,
-    featuresComponent
+    featuresComponent,
+    tollfreeComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,
